@@ -149,6 +149,8 @@ class DashboardActivity : AppCompatActivity() {
                 }
             }
         }
+
+        binding.btnLogout.setOnClickListener { signOut() }
     }
 
     private fun signOut() {

@@ -16,4 +16,5 @@
     <string name="ratio_of_recovery">Ratio of Recovery</string>
     <string name="affected">Affected</string>
     <string name="recovered">Recovered</string>
+    <string name="logout">Logout</string>
 </resources>
