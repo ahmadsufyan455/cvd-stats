@@ -56,26 +56,15 @@ class DashboardActivity : AppCompatActivity() {
                     autoComplete.onItemClickListener =
                         OnItemClickListener { parent, _, position, _ ->
                             val selectedItem = parent.getItemAtPosition(position) as String
-
-                            val date = summary.countries.first {
+                            val summaryData = summary.countries.first {
                                 it.country.contains(selectedItem)
-                            }.date.formatDate()
+                            }
 
-                            val totalCase = summary.countries.first {
-                                it.country.contains(selectedItem)
-                            }.totalConfirmed
-
-                            val activeCase = summary.countries.first {
-                                it.country.contains(selectedItem)
-                            }.newConfirmed
-
-                            val recoveredCase = summary.countries.first {
-                                it.country.contains(selectedItem)
-                            }.totalRecovered
-
-                            val deathCase = summary.countries.first {
-                                it.country.contains(selectedItem)
-                            }.totalDeaths
+                            val date = summaryData.date.formatDate()
+                            val totalCase = summaryData.totalConfirmed
+                            val activeCase = summaryData.newConfirmed
+                            val recoveredCase = summaryData.totalRecovered
+                            val deathCase = summaryData.totalDeaths
 
                             tvDate.text = resources.getString(R.string.last_update, date)
                             layoutTotalCase.tvTotalCase.text = totalCase.toString()
