@@ -5,4 +5,12 @@
     <string name="corona_virus">Corona Virus</string>
     <string name="wear_a_mask">Wear a Mask</string>
     <string name="dummy_content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat felis sit eget euismod et vulputate. Vitae lacus, maecenas odio ac.</string>
+    <string name="select_country">Select Country</string>
+    <string name="last_update">Last update %s</string>
+    <string name="id">ID</string>
+    <string name="welcome">Welcome back,\n%s</string>
+    <string name="total_case">Total Case</string>
+    <string name="active_case">Active Case</string>
+    <string name="recovered_case">Recovered</string>
+    <string name="death_case">Death</string>
 </resources>

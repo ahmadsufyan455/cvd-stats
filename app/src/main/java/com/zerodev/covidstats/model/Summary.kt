@@ -17,7 +17,7 @@ data class Global(
     @SerializedName("TotalDeaths") val totalDeaths: Long,
     @SerializedName("NewRecovered") val newRecovered: Long,
     @SerializedName("TotalRecovered") val totalRecovered: Long,
-    @SerializedName("Date") val date: Date
+    @SerializedName("Date") val date: String
 )
 
 data class Countries(
@@ -30,5 +30,5 @@ data class Countries(
     @SerializedName("TotalDeaths") val totalDeaths: Long,
     @SerializedName("NewRecovered") val newRecovered: Long,
     @SerializedName("TotalRecovered") val totalRecovered: Long,
-    @SerializedName("Date") val date: Date
+    @SerializedName("Date") val date: String
 )
