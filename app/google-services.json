@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "840230020140",
+    "project_id": "cvd-stats-dffd9",
+    "storage_bucket": "cvd-stats-dffd9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:840230020140:android:77f0fcf9e53e67b8915d89",
+        "android_client_info": {
+          "package_name": "com.zerodev.covidstats"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "840230020140-q7f56vuftihdairi49psuvca14lmdn5i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBelDdwP-r6Jl9_n5lb672IpAC_x-TQUdM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "840230020140-q7f56vuftihdairi49psuvca14lmdn5i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
