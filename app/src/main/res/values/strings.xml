@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Covid Stats</string>
+    <string name="next">Next</string>
+    <string name="login_gmail">Login with Gmail</string>
+    <string name="corona_virus">Corona Virus</string>
+    <string name="wear_a_mask">Wear a Mask</string>
+    <string name="dummy_content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat felis sit eget euismod et vulputate. Vitae lacus, maecenas odio ac.</string>
 </resources>
