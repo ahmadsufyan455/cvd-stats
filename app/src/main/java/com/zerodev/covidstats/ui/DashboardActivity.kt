@@ -23,6 +23,7 @@ import com.zerodev.covidstats.databinding.ActivityDashboardBinding
 import com.zerodev.covidstats.utils.formatDate
 import com.zerodev.covidstats.viewmodel.StatsViewModel
 import dagger.hilt.android.AndroidEntryPoint
+import java.util.*
 
 @AndroidEntryPoint
 class DashboardActivity : AppCompatActivity() {
@@ -45,7 +46,7 @@ class DashboardActivity : AppCompatActivity() {
 
         viewModel.setSummary()
         viewModel.summary.observe(this) { summary ->
-            if (summary != null) {
+            if (summary.countries != null) {
                 val adapter = ArrayAdapter(
                     this,
                     android.R.layout.simple_dropdown_item_1line,

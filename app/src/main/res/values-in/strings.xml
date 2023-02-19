@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Covid Stats</string>
+    <string name="next">Selanjutnya</string>
+    <string name="login_gmail">Masuk Dengan Gmail</string>
+    <string name="corona_virus">Virus Corona</string>
+    <string name="wear_a_mask">Gunakan Masker</string>
+    <string name="select_country">Pilih negara</string>
+    <string name="last_update">Pembaruan terakhir %s</string>
+    <string name="id">ID</string>
+    <string name="welcome">Selamat datang,\n%s</string>
+    <string name="total_case">Total Kasus</string>
+    <string name="active_case">Kasus Aktif</string>
+    <string name="recovered_case">Sembuh</string>
+    <string name="death_case">Meninggal</string>
+    <string name="ratio_of_recovery">Rasio Pemulihan</string>
+    <string name="affected">Terpapar</string>
+    <string name="recovered">Sembuh</string>
+    <string name="logout">Keluar</string>
+</resources>

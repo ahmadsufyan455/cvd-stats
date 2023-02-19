@@ -7,7 +7,7 @@ data class Summary(
     @SerializedName("ID") val id: String,
     @SerializedName("Message") val message: String,
     @SerializedName("Global") val global: Global,
-    @SerializedName("Countries") val countries: List<Countries>
+    @SerializedName("Countries") val countries: List<Countries>?
 )
 
 data class Global(
