@@ -17,4 +17,5 @@
     <string name="affected">Terpapar</string>
     <string name="recovered">Sembuh</string>
     <string name="logout">Keluar</string>
+    <string name="language">Bahasa</string>
 </resources>

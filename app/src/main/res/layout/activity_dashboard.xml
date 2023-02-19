@@ -46,7 +46,10 @@
                     android:id="@+id/tv_lang"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/id" />
+                    android:drawablePadding="4dp"
+                    android:drawableTint="@color/green"
+                    android:text="@string/language"
+                    app:drawableStartCompat="@drawable/ic_lang" />
 
             </LinearLayout>
 
@@ -222,13 +225,13 @@
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn_logout"
             android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginHorizontal="20dp"
-            android:textColor="@color/white"
-            android:textAllCaps="false"
             android:layout_marginBottom="20dp"
-            android:text="@string/logout"
             android:background="@drawable/bg_button_rounded"
-            android:layout_height="wrap_content"/>
+            android:text="@string/logout"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
 
     </LinearLayout>
 

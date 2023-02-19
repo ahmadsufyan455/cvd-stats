@@ -14,18 +14,15 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-//        mAuth = FirebaseAuth.getInstance()
-//        val user = mAuth.currentUser
-//
-//        if (user != null) {
-//            startActivity(Intent(this, DashboardActivity::class.java))
-//            finish()
-//        } else {
-//            startActivity(Intent(this, OnboardActivity::class.java))
-//            finish()
-//        }
+        mAuth = FirebaseAuth.getInstance()
+        val user = mAuth.currentUser
 
-        startActivity(Intent(this, DashboardActivity::class.java))
-        finish()
+        if (user != null) {
+            startActivity(Intent(this, DashboardActivity::class.java))
+            finish()
+        } else {
+            startActivity(Intent(this, OnboardActivity::class.java))
+            finish()
+        }
     }
 }

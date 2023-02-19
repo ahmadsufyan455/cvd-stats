@@ -5,6 +5,7 @@ import android.graphics.Color
 import android.graphics.Typeface
 import android.os.Build
 import android.os.Bundle
+import android.provider.Settings
 import android.widget.AdapterView.OnItemClickListener
 import android.widget.ArrayAdapter
 import androidx.activity.viewModels
@@ -42,7 +43,12 @@ class DashboardActivity : AppCompatActivity() {
         mAuth = FirebaseAuth.getInstance()
         val currentUser = mAuth.currentUser
 
-        binding.tvName.text = resources.getString(R.string.welcome, currentUser?.displayName)
+        binding.apply {
+            tvName.text = resources.getString(R.string.welcome, currentUser?.displayName)
+            llLang.setOnClickListener {
+                startActivity(Intent(Settings.ACTION_LOCALE_SETTINGS))
+            }
+        }
 
         viewModel.setSummary()
         viewModel.summary.observe(this) { summary ->
