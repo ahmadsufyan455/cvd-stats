@@ -1,25 +1,26 @@
 package com.zerodev.covidstats.datasource
 
+import android.content.Context
 import com.zerodev.covidstats.R
 import com.zerodev.covidstats.model.Onboard
 
 object OnboardData {
-    fun onboards(): List<Onboard> {
+    fun onboards(context: Context): List<Onboard> {
         return listOf(
             Onboard(
                 image = R.drawable.ob1,
-                title = "Wear a Mask",
-                description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat felis sit eget euismod et vulputate. Vitae lacus, maecenas odio ac."
+                title = context.getString(R.string.wear_a_mask),
+                description = context.getString(R.string.dummy_content)
             ),
             Onboard(
                 image = R.drawable.ob2,
-                title = "Hand Wash & Sanitize",
-                description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat felis sit eget euismod et vulputate. Vitae lacus, maecenas odio ac."
+                title = context.getString(R.string.hand_wash),
+                description = context.getString(R.string.dummy_content)
             ),
             Onboard(
                 image = R.drawable.ob3,
-                title = "Pyshical Distancing",
-                description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat felis sit eget euismod et vulputate. Vitae lacus, maecenas odio ac."
+                title = context.getString(R.string.physical_distance),
+                description = context.getString(R.string.dummy_content)
             )
         )
     }

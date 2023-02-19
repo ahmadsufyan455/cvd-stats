@@ -18,4 +18,6 @@
     <string name="recovered">Recovered</string>
     <string name="logout">Logout</string>
     <string name="language">Language</string>
+    <string name="hand_wash"><![CDATA[Hand Wash & Sanitize]]></string>
+    <string name="physical_distance">Physical Distancing</string>
 </resources>

@@ -18,4 +18,6 @@
     <string name="recovered">Sembuh</string>
     <string name="logout">Keluar</string>
     <string name="language">Bahasa</string>
+    <string name="hand_wash">Rajin Mencuci Tangan</string>
+    <string name="physical_distance">Menjaga Jarak</string>
 </resources>

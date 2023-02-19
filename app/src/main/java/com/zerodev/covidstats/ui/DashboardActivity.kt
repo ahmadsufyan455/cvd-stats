@@ -48,6 +48,7 @@ class DashboardActivity : AppCompatActivity() {
             llLang.setOnClickListener {
                 startActivity(Intent(Settings.ACTION_LOCALE_SETTINGS))
             }
+            autoComplete.setText(resources.getString(R.string.select_country))
         }
 
         viewModel.setSummary()

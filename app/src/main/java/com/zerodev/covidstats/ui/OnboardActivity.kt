@@ -103,7 +103,7 @@ class OnboardActivity : AppCompatActivity() {
 
 
     private fun setupOnboard() {
-        val data = OnboardData.onboards()
+        val data = OnboardData.onboards(this)
         onboardAdapter = OnboardAdapter(data)
         binding.vpOnboard.adapter = onboardAdapter
     }
